@@ -61,7 +61,12 @@
 </head>
 <body>
   <h1>Deep Link Triggered: /open</h1>
-    <p>Click below to open the app:</p>
-    <button onclick="window.location.href='myapp://open'">Open in App</button>
+     <p>Нажмите кнопку</p>
+  <button onclick="handleLogin()">Кнопка</button>
 </body>
+   <script>
+    function handleLogin() {
+      window.location.href = 'myapp://open';
+    }
+  </script>
 </html>
